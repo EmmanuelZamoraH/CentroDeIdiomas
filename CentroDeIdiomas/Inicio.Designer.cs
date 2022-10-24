@@ -31,21 +31,11 @@ namespace CentroDeIdiomas
         {
             System.Windows.Forms.Button btnRentar;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCatalgo = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             btnRentar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CentroDeIdiomas.Properties.Resources.cent_idiomas_somb;
-            this.pictureBox1.Location = new System.Drawing.Point(150, 72);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 153);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // btnCatalgo
             // 
@@ -61,9 +51,20 @@ namespace CentroDeIdiomas
             this.btnCatalgo.UseVisualStyleBackColor = false;
             this.btnCatalgo.Click += new System.EventHandler(this.btnCatalgo_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CentroDeIdiomas.Properties.Resources.cent_idiomas_somb;
+            this.pictureBox1.Location = new System.Drawing.Point(150, 72);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(175, 153);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnRentar
             // 
             btnRentar.BackColor = System.Drawing.Color.White;
+            btnRentar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             btnRentar.Cursor = System.Windows.Forms.Cursors.Hand;
             btnRentar.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
             btnRentar.FlatAppearance.BorderSize = 2;

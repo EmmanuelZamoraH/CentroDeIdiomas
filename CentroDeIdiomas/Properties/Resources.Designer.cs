@@ -133,6 +133,16 @@ namespace CentroDeIdiomas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondobtn {
+            get {
+                object obj = ResourceManager.GetObject("fondobtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap itsur {
             get {
                 object obj = ResourceManager.GetObject("itsur", resourceCulture);
