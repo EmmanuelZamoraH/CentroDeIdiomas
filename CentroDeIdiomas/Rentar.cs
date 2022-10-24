@@ -50,7 +50,7 @@ namespace CentroDeIdiomas
                 oRegistro.Nombre_Alumno = txtNombreAlumno.Text;
                 //oRegistro.IdCarrera = cbCarrera.SelectedIndex;
                 //oRegistro.IdLibro = cbLibro.SelectedIndex;
-                oRegistro.Fecha = dtpFecha.Value;
+                //oRegistro.Fecha = dtpFecha.Value;
 
                 db.REGISTRO.Add(oRegistro);
                 db.SaveChanges();
